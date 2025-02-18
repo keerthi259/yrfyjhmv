@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <h1>KANIMOZHI VENKATESAN</h1>
+        <h2>BACK END DEVELOPER</h2>
+        <img class="profile" src="Portfolio Image.jpg" alt="Profile Picture">
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C/C++</li>
+            <hr class="hr1">
+            <li>JAVA</li>
+            <hr class="hr2">
+            <li>MySQL</li>
+            <hr class="hr3">
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2 class="education_h2">Education</h2>
+        <ul>
+            <li>
+                <h3>MS - CS</h3>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Gravida parturient elementum vestibulum dignissim diam integer. Pulvinar venenatis nec semper ultrices ex aliquam habitant senectus. Ridiculus aenean sodales lectus donec mollis.</p>
+            </li>
+            <li>
+                <h3>BE - ECE</h3>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Gravida parturient elementum vestibulum dignissim diam integer. Pulvinar venenatis nec semper ultrices ex aliquam habitant senectus. Ridiculus aenean sodales lectus donec mollis.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project1">
+            <img class="img2" src="index1_files/Project 1.png" alt="Project 1 Image">
+            <h3><a href="https://yourproject1.com/" target="_blank">Project Name 1</a></h3>
+            <p>Project description.</p>
+        </div>
+        <div class="project2">
+            <img class="img3" src="index1_files/Project 2.png" alt="Project 2 Image">
+            <h3 class="project_h3"><a href="https://yourproject2.com/" target="_blank">Project Name 2</a></h3>
+            <p>Project description.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Job Title</h3>
+                <p>Experience details.</p>
+            </li>
+            <li>
+                <h3>Job Title</h3>
+                <p>Experience details.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="blogs">
+        <h2>Blogs</h2>
+        <ul>
+            <li>
+                <h3><a href="https://yourblog1.com/" target="_blank">Blog Title 1</a></h3>
+                <p>Blog description.</p>
+            </li>
+            <li>
+                <h3><a href="https://yourblog2.com/" target="_blank">Blog Title 2</a></h3>
+                <p>Blog description.</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: <a href="mailto:kanimozhi@gmail.com">kanimozhi@gmail.com</a></li>
+            <li>Phone: <a href="tel:+12343454356">+1 234 345 4356</a></li>
+            <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <img src="index1_files/Linkedin.png" alt="LinkedIn Profile"></a>
+            </li>
+            <li><a href="https://twitter.com/yourprofile" target="_blank">
+                <img src="index1_files/Twitter.png" alt="Twitter Profile"></a>
+            </li>
+        </ul>
+    </footer>
+    <style>
+        /* Reset default margin and padding */
+        
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background: #222;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Home Section */
+.home-section {
+    background: #1E90FF; /* Dodger Blue */
+    color: white;
+    padding: 100px 50px;
+    font-size: 40px;
+}
+.profile{
+    padding-left: 900px;
+    margin-top: -300px;
+}
+.home-section img {
+    width: 300px;
+}
+
+/* Skills Section */
+#skills {
+    background: #32CD32; /* Lime Green */
+    padding: 50px;
+}
+#skills ul {
+    list-style: none;
+    padding-left: 400px;
+}
+#skills ul li {
+    margin: 0 20px;
+    padding-top: 20px;
+}
+
+/* Education Section */
+#education {
+    background:navajowhite; /* Gold */
+    padding-top: 100px;
+}
+.education_h2{
+    float: right;
+    padding-right: 100px;
+}
+h2{
+    padding-left: 70px;
+    font-size: 50px;
+}
+
+/* Experience Section */
+#experience {
+    background:lavender; /* Orange Red */
+    color: white;
+    padding: 50px;
+}
+
+/* Projects Section */
+#projects {
+    background: #8A2BE2; /* Blue Violet */
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project1, .project2 {
+    text-align: center;
+    margin: 20px;
+    width: 45%;
+}
+
+.img2, .img3 {
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+}
+
+
+/* Footer */
+footer {
+    background: #000; /* Black */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    margin: 0 15px;
+}
+footer ul li img {
+    width: 40px;
+}
+</style>
+
+</body>
+</html>
